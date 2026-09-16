@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Special Surprise ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="giftBox">
+
+<div class="gift-card">
+
+<h1>🎁 A Small Surprise</h1>
+
+<p>Specially Made For</p>
+
+<h2>you[Shabnam] ❤️</h2>
+
+<button id="openGift">
+Open Gift 🎁
+</button>
+
+</div>
+</div>
+
+<div id="roseScreen" class="rose-screen">
+
+    <img
+        src="rose.png"
+        id="roseBloom"
+        class="rose-bloom"
+        alt="Rose">
+
+    <h2 id="roseText">
+        ye tumhare lia ❤️
+    </h2>
+
+</div>
+
+<div id="proposalPage" style="display:none;">
+
+<div class="proposal-card">
+
+<h1>Dear Shabnam ❤️</h1>
+
+<p id="typing"></p>
+
+<div class="buttons">
+
+<button id="yesBtn">
+❤️ YES
+</button>
+
+<button id="thinkBtn">
+💭 I'll Think
+</button>
+<button id="envelopeBtn">💌 Open My Letter</button>
+<button id="backBtn">⬅️ Back</button>
+
+<div id="envelopeContainer" class="envelope-container">
+
+    <div class="envelope">
+
+        <div class="envelope-top"></div>
+
+        <div class="letter">
+
+           <h2>❤️ Dear Shabnam [Tara] ❤️</h2>
+
+<p>
+
+Main nahi jaanta ki tumhare dil mein mere liye kya hai,
+lekin meri feelings bilkul sachchi hain.
+
+<br><br>
+
+Main tumhari izzat karta hoon aur chahta hoon
+ki tum hamesha khush raho.
+
+<br><br>
+
+Agar kabhi tumhe lage ki hum dono saath milkar
+ek khoobsurat safar shuru kar sakte hain,
+toh woh meri zindagi ki sabse badi khushi hogi.
+
+<br><br>
+
+Aur agar tumhari feelings alag hain,
+toh bhi main tumhare faisle ki hamesha izzat karunga.
+
+<br><br>
+
+Bas ek baat dil se kehna chahta hoon...
+
+<br><br>
+
+<b style="font-size:20px; color:#ff2d75;">
+I Love You ❤️
+</b>
+
+<br><br>
+
+<b style="font-size:18px;">
+Will you be the most beautiful chapter of my life? ❤️
+</b>
+
+</p>
+
+<h3>❤️ Yours,<br>Hisbullah</h3>
+
+<button id="closeEnvelope">
+    Close ❌
+</button>
+
+    </div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+<audio id="bgMusic" preload="auto">
+  <source src="music.mpeg" type="audio/mpeg">
+</audio>
+
+<div id="countdown" style="display:none;">
+  <h1 id="countNumber">3</h1>
+  <p>Preparing your surprise... ❤️</p>
+</div>
+<div id="submitPopup" class="popup" style="display:none;">
+  <div class="popup-box">
+    <h2>💌 Submit Response</h2>
+
+    <p>Your response will be submitted to Hisbullah.</p>
+
+    <p id="selectedAnswer"></p>
+
+    <form
+      action="https://docs.google.com/forms/d/e/1FAIpQLSfL7-Jc_bCMCptKk3S9pEKC4PGEJKwsFJY2zaYc-B6OqbgduQ/formResponse"
+      method="POST"
+      target="hiddenFrame">
+
+      <input
+        type="hidden"
+        id="formAnswer"
+        name="entry.2072641820">
+
+      <button type="submit" id="submitBtn">
+        ❤️ Submit Response
+      </button>
+
+    </form>
+
+    <iframe name="hiddenFrame" style="display:none;"></iframe>
+
+    <button id="cancelBtn">Cancel</button>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
